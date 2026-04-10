@@ -1,0 +1,28 @@
+# Data (regenerate via dac_pull.py)
+data/
+
+# Results (regenerate from analysis scripts)
+results/
+
+# Manuscripts
+*.docx
+*.pdf
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+
+# R
+.Rhistory
+.Rproj.user/
+*.Rproj
+
+# Python
+__pycache__/
+*.pyc
+.venv/
